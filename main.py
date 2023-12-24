@@ -66,9 +66,9 @@ bot = Client("bot",
              bot_token=os.environ.get("BOT_TOKEN"),
              api_id=int(os.environ.get("API_ID")),
              api_hash=os.environ.get("API_HASH"))
-auth_users = [6981453498,5318243282,5987970971,6061552289]
+auth_users = [1181522124]
 sudo_users = auth_users
-sudo_groups = [-1001911553062]
+sudo_groups = [-1001827442000]
 
 shell_usage = f"**USAGE:** Executes terminal commands directly via bot.\n\n<pre>/shell pip install requests</pre>"
 def one(user_id):
@@ -116,7 +116,7 @@ keyboard = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="Devloper",
-                url="https://t.me/TIGER0054",
+                url="https://t.me/GPSC_AI",
             ),
             InlineKeyboardButton(
                 text="Repo",
@@ -269,8 +269,8 @@ async def account_login(bot: Client, m: Message):
 
             try:  
                 
-                cc = f'**Vid_id  »** {str(count).zfill(3)}\n**Title  »** {name1} {res} {MR}.mkv\n**Batch »** {raw_text0}\n**DOWNLOADED BY » **@TIGER0054'
-                cc1 = f'**Vid_id  »** {str(count).zfill(3)}\n**Title »** {name1} {MR}.pdf \n**Batch »** {raw_text0}\n**DOWNLOADED BY » **@TIGER0054'
+                cc = f'**Vid_id  »** {str(count).zfill(3)}\n**Title  »** {name1} {res} {MR}.mkv\n**Batch »** {raw_text0}\n**DOWNLOADED BY » **@GPSC_AI'
+                cc1 = f'**Vid_id  »** {str(count).zfill(3)}\n**Title »** {name1} {MR}.pdf \n**Batch »** {raw_text0}\n**DOWNLOADED BY » **@GPSC_AI'
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
